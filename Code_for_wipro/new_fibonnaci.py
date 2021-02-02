@@ -1,4 +1,5 @@
 from time import time
+
 def fibonacci(num, calculated = {1:0, 2:1, 3:1}):
     if num in calculated: #
         return calculated[num]
@@ -11,6 +12,8 @@ if __name__ == "__main__":
     num = int(input("Enter the number: "))
     t1 = time()
     for i in range(1, num):
-        fibonacci(i)
+        # fibonacci(i)
+        print(fibonacci(i), end=" ")
     print(f"total time required {time() - t1}(s)")
-    # print(fibonacci(num), end=" ")
+    # print(fibonacci(num))
+    
