@@ -18,4 +18,6 @@ if __name__ == "__main__":
         fake_fib(i)
     t2 = time()
     print(f"Time required is {t2 - t1}")
-    
+
+
+
