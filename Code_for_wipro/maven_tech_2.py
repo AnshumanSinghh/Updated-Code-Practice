@@ -4,7 +4,7 @@ Given:
     If two strings have common char at same index then ignore next time this charcater and increment count by +2.
     Else if both strings have same char but at different position then don't ignore nect time and increase the count by +1.
 '''
-input1 = list(input("Input1: "))  # string is immutable so convert it into list.
+input1 = list(input("Input1: "))  # string is immutable, so to make it mutable convert it into list of chars.
 input2 = list(input("Input2: "))  
 res = 0
 for i in range(len(input1)):
